@@ -1,16 +1,13 @@
-const menuButton = document.getElementById("menuButton");
-const navigationLinks = document.getElementById("navigationLinks");
-const navigationItems = navigationLinks.querySelectorAll("a");
-const currentYear = document.getElementById("currentYear");
+const menuToggle = document.getElementById("menuToggle");
+const mainNav = document.getElementById("mainNav");
+const year = document.getElementById("year");
 
-menuButton.addEventListener("click", () => {
-    navigationLinks.classList.toggle("open");
+menuToggle.addEventListener("click", () => {
+  mainNav.classList.toggle("open");
 });
 
-navigationItems.forEach((item) => {
-    item.addEventListener("click", () => {
-        navigationLinks.classList.remove("open");
-    });
+mainNav.querySelectorAll("a").forEach((link) => {
+  link.addEventListener("click", () => mainNav.classList.remove("open"));
 });
 
-currentYear.textContent = new Date().getFullYear();
+year.textContent = new Date().getFullYear();
