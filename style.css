@@ -100,16 +100,16 @@ nav a:hover { color: var(--text); }
 }
 
 .hero h1 {
-  font-size: clamp(2rem, 4.2vw, 3.35rem);
-  line-height: 1.08;
+  font-size: clamp(1.55rem, 3vw, 2.35rem);
+  line-height: 1.12;
   margin: 12px 0 10px;
 }
 
 .hero h2 {
   max-width: 760px;
-  font-size: clamp(1.05rem, 1.8vw, 1.45rem);
-  line-height: 1.3;
-  font-weight: 650;
+  font-size: clamp(.92rem, 1.35vw, 1.12rem);
+  line-height: 1.42;
+  font-weight: 600;
 }
 
 .hero-copy {
@@ -422,11 +422,11 @@ footer {
   .section { padding: 58px 0; }
 
   .hero h1 {
-    font-size: clamp(1.85rem, 10vw, 2.65rem);
+    font-size: clamp(1.45rem, 8vw, 2rem);
   }
 
   .hero h2 {
-    font-size: clamp(1rem, 5vw, 1.22rem);
+    font-size: clamp(.9rem, 4.5vw, 1rem);
   }
 
   .section h2 {
