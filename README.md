@@ -18,7 +18,3 @@ A static GitHub Pages portfolio for Sourya Sumedh Bandi.
 5. Select `main` and `/(root)`.
 6. Save and wait a few minutes.
 7. Open `https://sourya-sumedh.github.io`.
-
-## Before publishing
-
-Review the contact information and remove anything you do not want publicly searchable.
